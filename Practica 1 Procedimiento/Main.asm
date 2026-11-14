@@ -2,9 +2,12 @@
 ; Horario: 10 - 11
 ; Docente: Jose Luis Medina Jimenez
 
+; Descripcion: Muestra mensajes en pantalla y llama dos veces al procedimiento mostrarAviso.
+; Tambien muestra las direcciones de las etiquetas donde se realizan las llamadas.
+
 INCLUDE Irvine32.inc
 .data
-    ; Mensajes a usar
+    ; Define los mensajes que se mostraran durante el programa.
     mensajeInicio BYTE "Inicio del proc", 0
     mensajeProcedimiento BYTE "Dentro del proc",  0
     mensajeFin BYTE "Fin programa", 0
